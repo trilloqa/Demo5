@@ -1,0 +1,52 @@
+{
+  "name" : "CountryForm3",
+  "type" : "form",
+  "apiSpec" : {
+    "impl" : "Trillo.RestAdapter",
+    "serviceUrl" : "ds/page/manage/rv",
+    "body" : {
+      "className" : "Vehicle",
+      "start" : 1,
+      "size" : 10000,
+      "orderBy" : "updatedAt desc"
+    },
+    "method" : "post"
+  },
+  "fieldSpecs" : [
+    {
+      "name" : "country",
+      "displayName" : "Country",
+      "type" : "text"
+    },
+    {
+      "name" : "animal",
+      "displayName" : "Animal",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "plant",
+      "displayName" : "Plant",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "official",
+      "displayName" : "Official",
+      "editable" : true,
+      "type" : "checkbox"
+    },
+    {
+      "name" : "close",
+      "displayName" : "Close",
+      "editable" : true,
+      "type" : "button"
+    },
+    {
+      "name" : "ok",
+      "displayName" : "OK",
+      "editable" : true,
+      "type" : "button"
+    }
+  ]
+}

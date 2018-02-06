@@ -1,0 +1,39 @@
+{
+  "name" : "App4",
+  "type" : "page",
+  "displayName" : "Blank Template",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "CustomerView_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "CustomerView",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ]
+}

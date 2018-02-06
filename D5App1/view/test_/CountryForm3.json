@@ -1,0 +1,8 @@
+{
+  "country" : "country",
+  "animal" : "animal",
+  "plant" : "plant",
+  "official" : false,
+  "close" : "close",
+  "ok" : "ok"
+}
