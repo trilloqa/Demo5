@@ -1,0 +1,15 @@
+{
+  "authChoice" : "2",
+  "gitConnected" : false,
+  "logos" : {
+    "logoStamp" : "/Demo5/shared/static/img/logo-stamp.png"
+  },
+  "name" : "Demo5",
+  "rtChoice" : "default",
+  "rtServerUrlDev" : "http://rt.com:8020",
+  "rtServerUrlInt" : "http://rt.com:8020",
+  "rtServerUrlProduction" : "http://rt.com:8020",
+  "rtServerUrlQA" : "http://rt.com:8020",
+  "rtServerUrlStaging" : "http://rt.com:8020",
+  "rtUrl" : "http://rt.com:8020"
+}
